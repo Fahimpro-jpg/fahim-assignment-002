@@ -51,9 +51,21 @@
 /* responsive for smaller devices */
 @media screen and (max-width:576px) {
     .dot-option{
-       visibility: hidden;
+       display: none;
+       
       
     }
-
     
+    .icon-img img{
+        width:3.90rem;
+        height: 2.35rem;
+    }
+.header-container{
+   
+      margin-left:-135px ;
+      margin-right: -135px;
+}
+    .icon-img{
+        margin-top: 20px;
+    }
 }
