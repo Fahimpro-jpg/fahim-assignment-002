@@ -44,11 +44,34 @@
 }
 
 /* shared styles */
+.color-orange{
+    color: #E95A08;
+}
+.black{
+    color: black;
+}
 
+/* banner-styles */
+.banner-title{
+    max-width: 1140px;
+    margin:0 auto;
+    margin-top: 100px;
+}
+.banner-item{
+    display: flex;
+    
+}
+
+.title-style{
+    font-size: 65px;
+    font-weight: bold;
+}
 
 
 
 /* responsive for smaller devices */
+
+
 @media screen and (max-width:576px) {
     .dot-option{
        display: none;
