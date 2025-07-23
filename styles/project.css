@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+.noto-serif-normal{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: normal
+    "wdth" 100;
+}
+
+/* header styles */
+.header-title{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 22px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon-container{
+    display: flex;
+    gap: 3rem;
+    margin-top: 35px;
+}
+.dot-option{
+    display: flex;
+    gap: 3rem;
+}
+
+
+
+.unknown-color{
+    color: #252432;
+}
+
+.fade-color{
+    color: #8987A1;
+}
+
+/* shared styles */
+
+
+
+
+/* responsive for smaller devices */
+@media screen and (max-width:576px) {
+    
+}
