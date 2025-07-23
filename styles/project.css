@@ -53,20 +53,27 @@
 
 /* banner-styles */
 .banner-title{
-    max-width: 1140px;
+    max-width: 1540px;
     margin:0 auto;
-    margin-top: 100px;
+    margin-top: 250px;
 }
+
+
 .banner-item{
     display: flex;
-    
+    justify-content: space-between;
 }
 
 .title-style{
     font-size: 65px;
     font-weight: bold;
+    
 }
-
+.banner-description{
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 /* responsive for smaller devices */
@@ -91,4 +98,23 @@
     .icon-img{
         margin-top: 20px;
     }
+
+    .banner-item{
+        flex-direction: column-reverse;
+        margin-top: -225px;
+    }
+    
+     .banner-img img{
+        width: 100%;
+     }
+     .title-style{
+        font-size: 24px;
+        margin-top: 25px;
+        
+     }
+
+     .banner-description{
+        font-size: 14px;
+        margin-top: 10px;
+     }
 }
