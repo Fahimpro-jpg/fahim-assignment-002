@@ -30,7 +30,10 @@
     gap: 3rem;
 }
 
-
+.icon-img img{
+    width: 8.40rem;
+    height: 5.10rem;
+}
 
 .unknown-color{
     color: #252432;
@@ -47,5 +50,10 @@
 
 /* responsive for smaller devices */
 @media screen and (max-width:576px) {
+    .dot-option{
+       visibility: hidden;
+      
+    }
+
     
 }
