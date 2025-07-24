@@ -126,7 +126,46 @@ margin-top: 45px;
     margin-top: 30px;
 }
 
+/* lover styles */
+.lover-header{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 200px;
+   
+}
 
+.lover-title{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+   justify-content: center;
+}
+
+.lover-container{
+  margin-bottom: 240px;
+}
+
+.flower-title{
+    font-size: 50px;
+    font-weight: bold;
+   
+}
+
+.flower-list{
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.5);
+   
+}
+.lover-image{
+   margin-top: 100px;
+}
+#trust-image img{
+    width: 250px;
+    height: 250px;
+   position: relative;
+   left: 400px;
+   bottom:710px;
+}
 /* responsive for smaller devices */
 
 
@@ -214,5 +253,25 @@ margin-top: 45px;
         padding: 13px 25px;
        }
     
+       /* lover responsive styles */
 
+       .lover-title{
+        flex-direction: column;
+       }
+
+       #trust-image img{
+        display: none;
+       }
+       .flower-store{
+        width: 90%;
+        margin-left: 20px;
+       }
+
+       .flower-title{
+        font-size: 24px;
+        margin-left: 15px;
+       }
+       .flower-list{
+        font-size: 14px;
+       }
 }
