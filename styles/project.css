@@ -224,7 +224,7 @@ margin-top: 45px;
 .discount-title{
     width: 360px;
     height: 200px;
-    border-radius: 15px;
+    border-radius: 16px;
     background-image: url(/B12A02-Responsive-Flowers/assets/deal-ana.png);
     display: flex;
     flex-direction: column;
