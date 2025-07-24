@@ -210,7 +210,7 @@ margin-top: 45px;
     width: 360px;
     height: 200px;
     border-radius: 15px;
-    background-image: url(/B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    background-image: url(../B12A02-Responsive-Flowers/assets/deal-bloom.png)
     margin-bottom: 25px;
     display: flex;
     flex-direction: column;
