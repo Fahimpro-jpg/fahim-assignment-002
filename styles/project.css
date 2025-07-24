@@ -396,5 +396,29 @@ margin-top: 45px;
        }
 
        /* discount item responsive styles */
-       
+       .deal-header h2{
+        font-size: 24px;
+       }
+
+       .deal-header p{
+        font-size: 10px;
+        margin-left: 7px;
+       }
+
+       .discount-header{
+        flex-direction: column;
+       }
+
+       .discount-title-big{
+         width: 360px;
+         height:200px;
+       }
+       .discount-title-big h2{
+        font-size: 20px;
+        
+       }
+
+       .discount-title-big p{
+        font-size: 16px;
+       }
 }
