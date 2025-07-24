@@ -50,6 +50,12 @@
 .black{
     color: black;
 }
+/* .box{
+    border: 2px solid tomato;
+} */
+ .margin-center{
+    /* margin-top: 50px */
+ }
 
 
 /* banner-styles */
@@ -166,6 +172,120 @@ margin-top: 45px;
    left: 400px;
    bottom:710px;
 }
+
+
+/* deal-section styles */
+/* .deal-section{
+    width: 100%;
+    margin: 0 auto;
+} */
+.deal-header{
+    text-align: center;
+    max-width: 880px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.deal-header p{
+    /* max-width: 880px; */
+    text-align: center;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.deal-header h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.discount-header{
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.discount-title-same{
+    width: 360px;
+    height: 200px;
+    border-radius: 15px;
+    background-image: url(/B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.discount-title{
+    width: 360px;
+    height: 200px;
+    border-radius: 15px;
+    background-image: url(/B12A02-Responsive-Flowers/assets/deal-ana.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discount-title-big{
+    width: 740px;
+    height: 410px;
+     border-radius: 15px;
+    background-image: url(/B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.discount-title-same h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+    
+    
+
+}
+
+.discount-title-same p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+
+.discount-title h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.discount-title p{
+     color: white;
+    font-size: 16px;
+    font-weight: 600
+}
+
+.discount-title-big {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.discount-title-big p{
+    font-size: 28px;
+    font-weight: 600;
+}
+
 /* responsive for smaller devices */
 
 
@@ -274,4 +394,7 @@ margin-top: 45px;
        .flower-list{
         font-size: 14px;
        }
+
+       /* discount item responsive styles */
+       
 }
