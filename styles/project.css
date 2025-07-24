@@ -232,8 +232,8 @@ margin-top: 45px;
     align-items: center;
 }
 .discount-title-big{
-    width: 740px;
-    height: 410px;
+    width: 46.25rem;
+    height: 25.625rem;
      border-radius: 15px;
     background-image: url(/B12A02-Responsive-Flowers/assets/deal-zabo.png);
     display: flex;
@@ -396,6 +396,9 @@ margin-top: 45px;
        }
 
        /* discount item responsive styles */
+       .deal-header{
+        width: 340px;
+       }
        .deal-header h2{
         font-size: 24px;
        }
@@ -407,11 +410,22 @@ margin-top: 45px;
 
        .discount-header{
         flex-direction: column;
+        margin-top: 20px;
+       }
+       .discount-title{
+         width: 20rem;
+        height: 11.5rem;
+       }
+       .discount-title-same{
+         width: 20rem;
+        height: 11.5rem;
        }
 
        .discount-title-big{
-         width: 360px;
-         height:200px;
+         width: 20rem;
+        height: 11.5rem;
+         margin-bottom: 200px;
+        
        }
        .discount-title-big h2{
         font-size: 20px;
