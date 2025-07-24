@@ -120,7 +120,7 @@ margin-top: 45px;
 
 .btn-primary{
     background-color: #E95A08;
-    padding: 26px 50px;
+    padding: 1.625rem 3.125rem;
     color: white;
     border: none;
     margin-top: 30px;
@@ -176,8 +176,9 @@ margin-top: 45px;
 
      .main-card-header{
         width: 100%;
-        margin: 0 16px;
+      
         margin-top: 60px;
+      
      }
 
      .top-title h2{
@@ -186,20 +187,32 @@ margin-top: 45px;
 
      .top-title p{
         font-size: 14px;
-        margin-right: 5px;
+       
      }
      
      .card-container{
+        max-width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 0.5fr);
-        margin-right: 10px;
+        grid-template-columns: repeat(2, 150px);
+       
      }
 
      .card-container img{
         width: 100%;
        
      }
-       
+       .card-title{
+        font-size: 16px;
+       }
+
+       .card-price{
+        font-size: 16px;
+       }
+
+       .btn-primary{
+        font-size: 8px;
+        padding: 13px 25px;
+       }
     
 
 }
