@@ -483,4 +483,27 @@ margin-top: 45px;
        .discount-title-big p{
         font-size: 16px;
        }
+
+       /* formal section responsive  */
+
+       .formal-section{
+        width: 394px;
+        height: 276px;
+        margin-left: -1px;
+       }
+
+       .formal-title{
+        font-size: 20px;
+       }
+
+       .formal-items input{
+        padding: 6px 30px;
+       }
+       .formal-header{
+        gap: 5px;
+       }
+
+       .btn-subscribe{
+        padding: 6px 6px;
+       }
 }
