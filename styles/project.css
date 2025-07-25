@@ -293,6 +293,15 @@ margin-top: 45px;
     height:530px ;
     /* border: 2px solid tomato; */
     background-image: url(../images/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin-left: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .formal-header{
@@ -311,6 +320,19 @@ margin-top: 45px;
     font-size: 50px;
     font-weight: bold;
     color: white;
+}
+
+.formal-items input {
+    padding: 12px 220px;
+    margin-top: 15px;
+}
+
+.btn-subscribe{
+    color: white;
+    padding: 16px 50px;
+    background-color: #E95A08;
+    border: none;
+    margin-top: 15px;
 }
 /* responsive for smaller devices */
 
